@@ -32,3 +32,14 @@ else:
 ```console
 cargo run --bin my-echo -- "my text"
 ```
+## my-cat
+
+usage:
+if builded:
+```console
+./target/release/my-cat "path/to/my/file"
+```
+else:
+```console
+cargo run --bin my-cat -- "path/to/my/file"
+```
