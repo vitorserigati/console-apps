@@ -10,11 +10,11 @@ cargo run --bin <implementation-name>
 
 ## Created Implementations
 
-| Item Name | Original functionallity |              Description           |
-|-----------|-------------------------|------------------------------------|
-|  my-cat   |         cat             |  concatenates files                |
-|  my-grep  |         grep            |  matches texts in files            |
-|  my-echo  |         echo            |             repats input           |
-|  my-ls    |          ls             |           lists directories        |
-|  my-find  |          find           |   locates files or directories     |
+| Implementation Name | Original functionallity |              Description           |
+|---------------------|-------------------------|------------------------------------|
+|            my-cat   |         cat             |         concatenates files         |
+|            my-grep  |         grep            |       matches texts in files       |
+|            my-echo  |         echo            |            repeats input           |
+|            my-ls    |          ls             |           lists directories        |
+|            my-find  |          find           |   locates files or directories     |
 
