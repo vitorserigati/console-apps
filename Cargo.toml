@@ -1,0 +1,19 @@
+[package]
+name = "console-apps"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = 'my-grep'
+[[bin]]
+name = 'my-cat'
+[[bin]]
+name = 'my-echo'
+[[bin]]
+name = 'my-ls'
+[[bin]]
+name = 'my-find'
+
+[dependencies]

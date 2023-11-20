@@ -1,0 +1,22 @@
+name: CI
+on: [push, pull_request]
+
+jobs:
+  build_and_test:
+    name: Rust CLI Utilities
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -qq libncurses-dev libpcre2-dev libncursesw5-dev
+      - name: Build Project
+        run: cargo build --release --all-features
+      - name: Test Project
+        run: cargo test
+      - name: Check clippy sugestions
+        run: cargo clippy
+      - name: Format Project
+        run: cargo fmt -- --check
